@@ -1,0 +1,130 @@
+body
+{
+	font-family: sans-serif;
+	background: linear-gradient(138deg,#3700B3, #6200EE, #018786);
+	background-size: 400% 400%;
+	animation: ground 5s ease-in-out infinite;
+	position: relative;
+}
+
+img
+{
+	margin-top: 1px;
+	width: 100px;
+	height: 100px;
+}
+
+label
+{
+	font-size: 18px;
+}
+
+a
+{
+	color: #fff;
+	outline: none;
+	
+}
+
+
+.row
+{
+	font-size: 16px;
+	border-radius: 20px;
+	text-align: center;
+	background-color:#6200EE;
+	color: #fff;
+	width: 400px;
+	height: 450px;
+	transform: translate(80%, 1%);
+	margin:200px;
+	box-shadow: 15px 10px #fff;
+}
+
+.container
+{
+	margin: 30px;
+}
+
+.container input
+{
+	text-align: center;
+	font-size: 18px;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	width: 200px;
+	height: 25px;
+	color: #fff;
+	background-color: #3700B3;
+}
+
+.box
+{
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+	background-color: #fff;
+}
+
+.container-o
+{
+	text-align: justify;
+	margin: 30px;
+}
+
+.container-l
+{
+	text-align: justify;
+	margin: 30px;
+}
+
+.but button
+{
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	width: 180px;
+	height: 30px;
+	color: #cecece;
+	background-color: #7721ef;
+}
+
+.but button:hover
+{
+	color: #fff;
+	filter: brightness 300;
+	background-color: #3700B3;
+	transition: 0.7s;
+}
+
+.container input:hover
+{
+	font-size: 20px;
+	width: 250px;
+	height: 30px;
+	color: #fff;
+	background-color: #280084;
+	transition: 0.7s;
+}
+
+@keyframes ground
+{
+	0%
+	{
+		background-position: 0% 50%;
+	}
+
+	50%
+	{
+		background-position: 50% 100%;
+	}
+
+	100%
+	{
+		background-position: 0% 50%;
+	}
+
+}
